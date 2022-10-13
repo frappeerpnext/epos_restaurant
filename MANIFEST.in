@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include epos_restaurant *.css
+recursive-include epos_restaurant *.csv
+recursive-include epos_restaurant *.html
+recursive-include epos_restaurant *.ico
+recursive-include epos_restaurant *.js
+recursive-include epos_restaurant *.json
+recursive-include epos_restaurant *.md
+recursive-include epos_restaurant *.png
+recursive-include epos_restaurant *.py
+recursive-include epos_restaurant *.svg
+recursive-include epos_restaurant *.txt
+recursive-exclude epos_restaurant *.pyc
