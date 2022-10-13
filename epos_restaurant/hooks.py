@@ -195,5 +195,6 @@ app_license = "MIT"
 # translated_search_doctypes = []
 
 fixtures = [
-    "Custom Field",
+
+      {"dt": "Custom Field", "filters":[["module", "=", "ePOS Restaurant"]]},
 ]
