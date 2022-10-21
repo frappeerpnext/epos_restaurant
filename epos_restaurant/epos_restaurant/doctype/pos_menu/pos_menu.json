@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:pos_menu",
+ "creation": "2022-10-21 10:20:23.219641",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pos_menu",
+  "lft",
+  "rgt",
+  "is_group",
+  "old_parent",
+  "parent_pos_menu"
+ ],
+ "fields": [
+  {
+   "fieldname": "pos_menu",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "POS Menu",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "lft",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Left",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "rgt",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Right",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_group",
+   "fieldtype": "Check",
+   "label": "Is Group"
+  },
+  {
+   "fieldname": "old_parent",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Old Parent",
+   "options": "POS Menu"
+  },
+  {
+   "fieldname": "parent_pos_menu",
+   "fieldtype": "Link",
+   "label": "Parent POS Menu",
+   "options": "POS Menu"
+  }
+ ],
+ "is_tree": 1,
+ "links": [],
+ "modified": "2022-10-21 10:22:27.973993",
+ "modified_by": "Administrator",
+ "module": "ePOS Restaurant",
+ "name": "POS Menu",
+ "naming_rule": "By fieldname",
+ "nsm_parent_field": "parent_pos_menu",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
