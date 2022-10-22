@@ -12,7 +12,9 @@
   "rgt",
   "is_group",
   "old_parent",
-  "parent_pos_menu"
+  "parent_pos_menu",
+  "image",
+  "is_favorite"
  ],
  "fields": [
   {
@@ -57,11 +59,24 @@
    "fieldtype": "Link",
    "label": "Parent POS Menu",
    "options": "POS Menu"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_favorite",
+   "fieldtype": "Check",
+   "label": "Is Favorite"
   }
  ],
+ "image_field": "image",
  "is_tree": 1,
  "links": [],
- "modified": "2022-10-21 10:22:27.973993",
+ "modified": "2022-10-21 15:10:09.701410",
  "modified_by": "Administrator",
  "module": "ePOS Restaurant",
  "name": "POS Menu",
