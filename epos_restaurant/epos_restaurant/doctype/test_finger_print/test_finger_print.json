@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "creation": "2023-06-19 14:14:30.988458",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_id",
+  "timestamp",
+  "device_id",
+  "log_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User ID"
+  },
+  {
+   "fieldname": "timestamp",
+   "fieldtype": "Data",
+   "label": "Timestamp"
+  },
+  {
+   "fieldname": "device_id",
+   "fieldtype": "Data",
+   "label": "Device ID"
+  },
+  {
+   "fieldname": "log_type",
+   "fieldtype": "Data",
+   "label": "Log Type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-19 14:14:30.988458",
+ "modified_by": "Administrator",
+ "module": "ePOS Restaurant",
+ "name": "Test Finger Print",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
